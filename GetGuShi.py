@@ -29,6 +29,6 @@ while a==1:
         name = content[content.find("/guwen/bookv"):] # 找到下一篇幅的信息 2
         name = name[:name.find('</a>')] # 截取篇幅标题信息 3
     else:
-        break
+        break 
 
 '''
